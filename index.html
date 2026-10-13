@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Concours photo CSE</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 id="title">Concours photo CSE</h1>
+    <p class="theme" id="theme"></p>
+    <p class="rules" id="rules"></p>
+  </header>
+
+  <main>
+    <p class="status" id="loadStatus">Chargement des photos…</p>
+    <div class="wall" id="wall"></div>
+  </main>
+
+  <form class="votebar" id="votebar" hidden novalidate>
+    <p class="count" id="count">Aucune photo choisie</p>
+    <label class="field">
+      <span id="idLabel">Votre e-mail professionnel</span>
+      <input id="voter" name="voter" autocomplete="email" required>
+    </label>
+    <button type="submit" id="send" disabled>Envoyer mon vote</button>
+    <p class="msg" id="msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <dialog id="viewer" aria-label="Photo en grand">
+    <button class="close" id="vClose" aria-label="Fermer">✕</button>
+    <button class="nav prev" id="vPrev" aria-label="Photo précédente">‹</button>
+    <figure>
+      <img id="vImg" alt="">
+      <figcaption>
+        <span id="vCap"></span>
+        <button class="pick" id="vPick" type="button">Choisir</button>
+      </figcaption>
+    </figure>
+    <button class="nav next" id="vNext" aria-label="Photo suivante">›</button>
+  </dialog>
+
+  <footer class="foot">
+    Votre identifiant sert uniquement à garantir une personne = un vote. Il n'est visible que par les organisateurs du CSE.
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

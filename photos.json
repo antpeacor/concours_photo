@@ -1,0 +1,8 @@
+[
+  { "id": "p01", "file": "photos/p01.jpg", "title": "Brume sur le canal" },
+  { "id": "p02", "file": "photos/p02.jpg", "title": "Le vieux chêne" },
+  { "id": "p03", "file": "photos/p03.jpg", "title": "Fin de marché" },
+  { "id": "p04", "file": "photos/p04.jpg", "title": "Heure bleue" },
+  { "id": "p05", "file": "photos/p05.jpg", "title": "Escalier de service" },
+  { "id": "p06", "file": "photos/p06.jpg", "title": "Reflets du soir" }
+]
