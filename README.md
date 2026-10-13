@@ -23,7 +23,7 @@ GitHub Pages (photos + vote buttons)  ──POST──▶  Google Apps Script  �
 
 - `config.js`: paste the Web app URL into `scriptUrl`, set the title, theme, `maxVotes` and `voteEnd` (same values as in Code.gs).
 - Put the contest photos in `photos/` (resize to ~1600 px wide, JPG, so the page loads fast).
-- List them in `photos.json`. The `id` is what appears in the Sheet; keep titles anonymous so authors stay hidden during the vote.
+- Run `powershell -File generate-photos.ps1` to (re)generate `photos.json` from the files in `photos/`. Each photo's filename becomes its displayed title; the `id` (used in the Sheet) is a URL-safe slug of that filename. Re-run this script any time you add, remove, or rename a photo.
 
 ## 3. Publish on GitHub Pages
 

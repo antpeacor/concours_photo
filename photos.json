@@ -1,8 +1,11 @@
 [
-  { "id": "p01", "file": "photos/p01.jpg", "title": "Brume sur le canal" },
-  { "id": "p02", "file": "photos/p02.jpg", "title": "Le vieux chêne" },
-  { "id": "p03", "file": "photos/p03.jpg", "title": "Fin de marché" },
-  { "id": "p04", "file": "photos/p04.jpg", "title": "Heure bleue" },
-  { "id": "p05", "file": "photos/p05.jpg", "title": "Escalier de service" },
-  { "id": "p06", "file": "photos/p06.jpg", "title": "Reflets du soir" }
+  { "id": "camouflage", "file": "photos/camouflage.jpg", "title": "camouflage" },
+  { "id": "ces-humains-me-detestent", "file": "photos/ces humains me détestent.jpg", "title": "ces humains me détestent" },
+  { "id": "img-2180", "file": "photos/IMG_2180.jpg", "title": "IMG 2180" },
+  { "id": "je-vais-dans-l-espace", "file": "photos/je vais dans l'espace.jpg", "title": "je vais dans l'espace" },
+  { "id": "la-creation-du-shih-tzu", "file": "photos/la création du shih tzu.jpg", "title": "la création du shih tzu" },
+  { "id": "moi-dans-le-park", "file": "photos/moi dans le park.jpg", "title": "moi dans le park" },
+  { "id": "on-me-donne-pas-a-bouffer", "file": "photos/on me donne pas à bouffer.jpg", "title": "on me donne pas à bouffer" },
+  { "id": "willow-wintour", "file": "photos/Willow Wintour.jpg", "title": "Willow Wintour" },
+  { "id": "ying-yang", "file": "photos/ying yang.jpg", "title": "ying yang" }
 ]

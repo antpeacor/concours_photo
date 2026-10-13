@@ -1,7 +1,7 @@
 // ===== Réglages du concours — à modifier =====
 window.CONTEST = {
   title: "Concours photo CSE",
-  theme: "Thème 2026 : Lumières d'automne",
+  theme: "Thème 2 : Nature (flore et faune)",
 
   // URL du script Google Apps Script (étape 2 du README)
   scriptUrl: "https://script.google.com/macros/s/AKfycbwKllPyGpmGj7_jvM34oGR4rw26L5bHdPwStAJHIJJZ8ORdRSPm5L26bi0s2LuuTT57/exec",
